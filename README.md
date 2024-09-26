@@ -95,4 +95,18 @@ java CoffeeShop
 
 ---
 
-## Task 2
+## Task 2 - Mars Rover Simulation
+
+### Task Overview
+This task simulates a Mars Rover that can navigate a grid-based terrain. The Rover can move forward, turn left, and turn right while avoiding the obstacles and staying within the boundaries of the grid. The simulation is built with OOPs principles and leverages design patterns, including the **Command Pattern** and **Composite Pattern**.
+
+#### Functionalities
+- **Move Forward ('M'):** Moves the Rover one step in the direction it is facing.
+- **Turn Left ('L'):** Turns the Rover 90 degrees to the left.
+- **Turn Right ('R'):** Turns the Rover 90 degrees to the right.
+- **Obstacle Detection:** If an obstacle is encountered in the Rover's path, it stops moving forward.
+- **Status Report:** The Rover can report its current position and direction, and whether it encountered any obstacles.
+
+#### Design Patterns Used
+1. **Command Pattern:** Encapsulates the movement ('M'), turn left ('L'), and turn right ('R') commands as objects for flexibility.
+2. **Composite Pattern:** Represents the grid and obstacles as a collection of components.
